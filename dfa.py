@@ -29,9 +29,9 @@ transitions = {
 
 accepts = {'s3':'FLOAT_TOKEN'}
 
-#text = input('Give')
-#m=scan(text,transitions,accepts,'s0')
-#print(m)
+text = input('Give')
+m=scan(text,transitions,accepts,'s0')
+print(m)
 
 for test in ['12.456','6789.','.66998','1234','.']:
 	m = scan(test,transitions,accepts,'s0')
